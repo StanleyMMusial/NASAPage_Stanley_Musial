@@ -1,0 +1,57 @@
+@font-face {
+    src: url("./images/ArchivoBlack-Regular.ttf");
+    font-family: archivo;
+}
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 65px;
+}
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 19px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    color: gray;
+}
+h4 {
+    color: black;
+    font-size: 17;
+}
+main {
+    height: 473px;
+    margin-top: 23px;
+    background-image: url("./images/3266b3dec0d796f9dc12068aa81dc7bb.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+section {
+    display: flex;
+    margin-top: 23px;
+    height: 354px;
+    background-color: rgb(230,230,230);
+    justify-content: space-between
+}
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+ul {
+    margin-left: 0;
+}
+button {
+    margin-top: 20px;
+    background-color: darkgray;
+    width: 160px;
+}
